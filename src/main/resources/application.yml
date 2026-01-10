@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db.jlklwaqiilqdkgmthgjf.supabase.co:5432/postgres
+    username: postgres
+    password: Sanish@2903!
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
